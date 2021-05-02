@@ -1,8 +1,14 @@
+<script lang="ts">
+	export let title;
+	export let body;
+	export let eventTitle;
+</script>
+
 <div class="card text-center col-4 col-md-12">
 	<div class="card-body">
-		<h5 class="card-title">Special title treatment</h5>
-		<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-		<a href="./" class="btn btn-primary">Register</a>
+		<h5 class="card-title">{title}</h5>
+		<p class="card-text">{body}</p>
+		<a href="/{eventTitle}" class="btn btn-primary">Register</a>
 	</div>
 </div>
 
