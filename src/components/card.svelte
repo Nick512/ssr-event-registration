@@ -1,7 +1,7 @@
 <script lang="ts">
-	export let title;
-	export let body;
-	export let eventTitle;
+	export let title: String;
+	export let body: String;
+	export let eventTitle: String;
 </script>
 
 <div class="card text-center col-4 col-md-12">
