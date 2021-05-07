@@ -22,6 +22,8 @@
 		"baseUrl": ".",
 		"allowJs": true,
 		"checkJs": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
 		"paths": {
 			"$lib/*": ["src/lib/*"]
 		}
