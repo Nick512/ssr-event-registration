@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Top from '../components/top.svelte';
-	import Card from '../components/card.svelte';
+	import Top from '$lib/components/top.svelte';
+	import Card from '$lib/components/card.svelte';
 
 	let start = 3;
 	let end = 6;

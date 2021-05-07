@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Top from '../../components/top.svelte';
-	import Login from '../../components/login.svelte';
+	import Top from '$lib/components/top.svelte';
+	import Login from '$lib/components/login.svelte';
 </script>
 
 <div class="container-fluid">
